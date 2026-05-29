@@ -4,3 +4,4 @@ a.out
 build/
 .DS_Store
 .venv/
+.cursor/
