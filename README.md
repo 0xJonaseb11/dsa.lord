@@ -1,6 +1,6 @@
 # DSA.LORD
 
-SPEDS402 — Data Structures & Algorithms (C++). Curriculum: [RCA module PDF](https://rca.ac.rw/fileadmin/curriculum/year_2/specific_modules/speds402_data_structure_and_algorithms_using_c__.pdf).
+SPEDS402 full curriculum coverage — Data Structures & Algorithms (C++). [Module PDF](https://rca.ac.rw/fileadmin/curriculum/year_2/specific_modules/speds402_data_structure_and_algorithms_using_c__.pdf).
 
 ```bash
 ./scripts/run.sh 03-linear-structures/stacks/browser_history.cpp
