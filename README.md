@@ -14,4 +14,18 @@ SPEDS402 Data Structures and Algorithms in C++. [Module PDF](https://rca.ac.rw/f
 | Nonlinear structures | `04-nonlinear-structures/` |
 | Hash tables | `05-hash-tables/` |
 | Recursion | `06-recursion/` |
-| Capstone | `projects/sudoku-solver/` |
+| Projects | `projects/` |
+
+## Projects
+
+| Project | Topic |
+|---------|-------|
+| `sudoku-solver/` | Backtracking |
+| `playlist-manager/` | Doubly linked list |
+| `lru-cache/` | Linked list + hash map |
+| `contact-directory/` | BST CRUD |
+| `file-tree-index/` | BST by file size |
+| `campus-transit/` | Dijkstra pathfinding |
+| `delivery-network/` | BFS and DFS |
+| `package-build-order/` | Topological sort |
+| `social-network/` | BFS degrees of separation |
