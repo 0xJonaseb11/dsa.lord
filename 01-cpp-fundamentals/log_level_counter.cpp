@@ -18,7 +18,7 @@ int count_level(const std::string& text, const std::string& level) {
     return count;
 }
 
-}  // namespace logs
+}
 
 int main() {
     std::string sample =

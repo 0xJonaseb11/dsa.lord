@@ -44,7 +44,7 @@ LineItem parse_line(const std::string& row) {
     return item;
 }
 
-}  // namespace billing
+}
 
 int main() {
     std::vector<billing::LineItem> items = {

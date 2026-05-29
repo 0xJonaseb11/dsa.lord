@@ -1,3 +1,3 @@
-# LO2 — Algorithm Analysis
+# LO2: Algorithm Analysis
 
-Timing search strategies and comparing space usage on realistic workloads.
+Complexity notes and timing demos.

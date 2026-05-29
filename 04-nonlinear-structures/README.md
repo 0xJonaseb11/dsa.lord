@@ -1,3 +1,3 @@
-# LO4 — Non-Linear Structures
+# LO4: Nonlinear Structures
 
-Org chart, delivery routes, word frequency maps.
+Trees, graphs, maps.

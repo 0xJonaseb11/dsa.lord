@@ -12,7 +12,7 @@ T fahrenheit_to_celsius(T fahrenheit) {
     return (fahrenheit - 32) * 5 / 9;
 }
 
-}  // namespace units
+}
 
 int main() {
     std::cout << units::celsius_to_fahrenheit(20.0) << '\n';

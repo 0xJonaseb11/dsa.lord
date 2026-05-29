@@ -1,3 +1,3 @@
-# LO1 — C++ Fundamentals
+# LO1: C++ Fundamentals
 
-Bank account, inventory, payroll shapes, log parsing, unit conversion.
+OOP, I/O, functions, templates.

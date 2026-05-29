@@ -1,4 +1,4 @@
-# Data Structures — Advanced Reference
+# Data Structures: Advanced Reference
 
 ## Segment tree (range sum, point update)
 
@@ -94,13 +94,13 @@ struct SparseTable {
 ## Graph representations
 
 ```cpp
-// Adjacency matrix — dense, O(n²) space, O(1) edge lookup
+// Adjacency matrix: dense, O(n²) space, O(1) edge lookup
 vector<vector<int>> mat(n, vector<int>(n, INF));
 
-// Edge list — Kruskal, Bellman-Ford
+// Edge list: Kruskal, Bellman-Ford
 vector<tuple<int,int,int>> edges;  // u, v, w
 
-// Compressed coordinates — when values up to 10⁹ but count ≤ 10⁵
+// Compressed coordinates when values are huge but count is small
 vector<int> coords = a;
 sort(all(coords));
 coords.erase(unique(all(coords)), coords.end());

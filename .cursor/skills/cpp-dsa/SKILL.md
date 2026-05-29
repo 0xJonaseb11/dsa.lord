@@ -1,7 +1,7 @@
 ---
 name: cpp-dsa
 description: >-
-  C++ for competitive programming and DSA — fast I/O, STL containers/algorithms,
+  C++ for competitive programming and DSA: fast I/O, STL containers/algorithms,
   templates, and idioms. Use when writing, reviewing, or debugging C++ solutions,
   LeetCode/Codeforces problems, or when the user mentions C++, STL, or competitive programming.
 ---
@@ -97,42 +97,15 @@ Before coding, state expected complexity. Reject approaches that exceed typical 
 | ≤ 10⁶ | O(n) or O(n log n) with tight constants |
 | ≤ 10⁷ | O(n) only, minimal overhead |
 
-## Common pitfalls
+## Pitfalls
 
-- **Overflow**: use `long long` for sums/products; cast before multiply: `(ll)a * b`
-- **Index off-by-one**: clarify 0-indexed vs 1-indexed in comments once
-- **Mod on subtraction**: `(a - b + MOD) % MOD`
-- **Integer division**: `-7/2 == -3` in C++; use `floor`/`ceil` helpers when needed
-- **Uninitialized variables**: always initialize accumulators and DP tables
-- **Recursion depth**: deep DFS may stack-overflow; switch to iterative or increase stack (platform-specific)
-- **TLE on `endl`**: use `'\n'`
-
-## Solution structure
-
-When solving a problem, follow this order:
-
-1. **Restate** — input, output, constraints
-2. **Approach** — algorithm + time/space complexity
-3. **Edge cases** — empty, single element, duplicates, negatives, overflow
-4. **Implement** — clean, minimal code
-5. **Verify** — walk through 2–3 examples including edge cases
-
-## Output format for explanations
-
-```markdown
-## Approach
-[1–2 sentences]
-
-## Complexity
-- Time: O(...)
-- Space: O(...)
-
-## Edge cases
-- ...
-
-## Code
-[full solution]
-```
+- Overflow: use `long long` for sums/products; cast before multiply: `(ll)a * b`
+- Index off-by-one: pick 0-indexed or 1-indexed once and stick to it
+- Mod on subtraction: `(a - b + MOD) % MOD`
+- Integer division: `-7/2 == -3` in C++; use helpers when you need floor/ceil
+- Uninitialized accumulators and DP tables
+- Deep recursion can stack-overflow; go iterative if needed
+- TLE on `endl`: use `'\n'`
 
 ## Additional resources
 

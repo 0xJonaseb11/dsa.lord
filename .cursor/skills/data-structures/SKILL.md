@@ -1,7 +1,7 @@
 ---
 name: data-structures
 description: >-
-  Data structures for algorithm problems — selection guide, implementations,
+  Data structures for algorithm problems: selection guide, implementations,
   complexity, and pattern matching. Use when implementing or choosing arrays,
   linked lists, stacks, queues, trees, graphs, heaps, hash tables, tries,
   segment trees, or when the user asks about DSA, data structures, or Big-O tradeoffs.
@@ -28,16 +28,16 @@ description: >-
 
 When multiple structures fit, prefer the one with simpler code and acceptable complexity.
 
-## Core structures — complexity
+## Core structures: complexity
 
 | Structure | Access | Search | Insert | Delete | Space |
 |-----------|--------|--------|--------|--------|-------|
 | Array | O(1) | O(n) | O(n) | O(n) | O(n) |
 | Linked list | O(n) | O(n) | O(1)* | O(1)* | O(n) |
 | Stack / Queue | O(n) | O(n) | O(1) | O(1) | O(n) |
-| Hash table | — | O(1)* | O(1)* | O(1)* | O(n) |
+| Hash table | n/a | O(1)* | O(1)* | O(1)* | O(n) |
 | BST (balanced) | O(log n) | O(log n) | O(log n) | O(log n) | O(n) |
-| Heap | — | O(n) | O(log n) | O(log n) | O(n) |
+| Heap | n/a | O(n) | O(log n) | O(log n) | O(n) |
 | Trie (len L) | O(L) | O(L) | O(L) | O(L) | O(Σ·L) |
 
 *Amortized or with known position for linked list.
@@ -78,7 +78,7 @@ vector<vector<pii>> wg(n);  // weighted: {neighbor, weight}
 vector<vector<int>> tree(n);
 // Build from edges; avoid adding parent back in undirected build
 
-// Monotonic stack — next greater to the right
+// Monotonic stack: next greater to the right
 vi nextGreater(const vi& a) {
     int n = a.size();
     vi res(n, -1);
@@ -116,29 +116,13 @@ while (!q.empty()) {
 }
 ```
 
-## Problem-solving workflow
+## Workflow
 
-1. **Identify the object** — what are you storing? (elements, intervals, nodes, strings)
-2. **Identify operations** — insert, delete, query, traverse — and their frequency
-3. **Pick structure** using the selection guide
-4. **State complexity** for each operation and overall
-5. **Code** using STL first; custom impl only if required
-
-## Explanation template
-
-When teaching or reviewing a solution:
-
-```markdown
-## Data structure choice
-[Structure] because [operations needed] in [complexity].
-
-## Key operations
-- Op 1: O(...)
-- Op 2: O(...)
-
-## Tradeoffs considered
-- Alternative: [X] — rejected because [reason]
-```
+1. Name what you are storing
+2. List the operations you need and how often they run
+3. Pick a structure from the guide
+4. State time and space cost
+5. Use STL first; hand-roll only when the exercise requires it
 
 ## Additional resources
 

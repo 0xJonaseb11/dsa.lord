@@ -1,3 +1,3 @@
-# LO3 — Linear Structures
+# LO3: Linear Structures
 
-Sales ledger, transaction sorting, SKU lookup, playlist, browser history, ticket queue.
+Arrays, lists, stacks, queues, sorting, searching.
