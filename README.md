@@ -29,3 +29,9 @@ SPEDS402 Data Structures and Algorithms in C++. [Module PDF](https://rca.ac.rw/f
 | `delivery-network/` | BFS and DFS |
 | `package-build-order/` | Topological sort |
 | `social-network/` | BFS degrees of separation |
+
+## Author
+
+[0xJonaseb11](https://github.com/0xJonaseb11)
+
+If this repo helps your DSA work, leave a star on GitHub.
